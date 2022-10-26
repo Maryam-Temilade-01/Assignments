@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="regpage">
+    <main class="innerregpage">
+        <h3 align="center">REGISTRATION PAGE</h3>
+        <hr>
+      <form action="sucessful.html"> 
+          <table>
+           <tr>
+              <td><label for="fname">First Name:</label></td>
+              <td><input type="text" name="fname" placeholder="First Name" required></td>
+             <tr>
+              </tr>
+              <td><label for="lname">Last Name:</label></td>
+              <td><input type="text" name="lname" placeholder="Last Name" required></td>
+              </tr>
+              <tr>
+                  <td><label for="pnumber">Phone Number:</label></td>
+                  <td><input type="text" name="pnumber" placeholder="000-000-00-000" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{3}"></td>  
+              </tr>
+              <tr>
+                  <td><label for="email">E-mail:</label></td>
+                  <td><input type="email" name="email" placeholder="example@gmail.com" required></td> 
+              </tr>
+              <tr>
+                  <td><label for="gender">Gender:</label></td>
+                  <td>
+                    <select name="gender" id="" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                    </select>
+              </td>
+             </tr>
+              <tr>
+                  <td><label for="dob">Date Of Birth:</label></td>
+                  <td><input type="date" name="dob" id="dob" max="2019-01-01" min="1995-01-01" required></td>
+              </tr>
+              <tr>
+                  <td><label for="fcolour">Select favorite colour:</label></td>
+                  <td><input type="color" name="fcolor" id="fcolor"></td>
+             </tr>  
+              <tr>
+                  <td><label for="password">Create Password:</label></td>
+                  <td><input type="password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{8,}" title="must contain at least a chracter, an uppercase, a lowercase and a numeral" placeholder="********"  required></td>
+              </tr>
+              <tr>
+                  <td> <button type="submit">Finish</button></td>
+              </tr> 
+          </table>     
+      </form>
+      <hr>
+          <p>Already have an account? <a href="loginpage.html" target="_blank"> Tap to log in</a></p>
+    </main>
+</body>
+</html>

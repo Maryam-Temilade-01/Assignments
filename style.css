@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    color:black;
+}
+.innerregpage {
+    background-color: rgb(214, 214, 214);
+    border-radius: 20px;
+    padding: 20px;
+}
+.regpage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 400px;
+}
+.regpage h3 {
+    text-align: center;
+    margin: 20px 0;
+}
+.regpage label{
+    margin: 10px 0; 
+}
+.regpage input {
+   padding: 5px;
+   width: 100%;
+   border: 0;
+   border-radius: 10px;
+   outline: none;
+   margin: 3px;
+}
+.regpage button{
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+    width: 40%;
+    border: 0;
+    background-color: aliceblue;
+    border-radius: 5px;    
+}
+.regpage button:hover {
+    color: red;
+}

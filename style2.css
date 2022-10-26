@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.logpage {
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    color: black;
+}
+.innerlogpage {
+    background-color: rgb(214, 214, 214);
+    border-radius: 20px;
+    padding: 20px;
+}
+.logpage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 600px;
+}
+.logpage h3 {
+    margin: 20px;
+}
+.logpage label {
+    font-size: 20px;
+    margin: 50px;
+}
+.logpage input {
+    padding: 5px;
+   width: 100%;
+   border: 0;
+   border-radius: 10px;
+   outline: none;
+   margin: 5px;
+}
+.logpage button {
+    font-weight: bold; 
+    margin: 10px;
+    padding: 5px;
+    width: 40%;
+    border: 0;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.logpage button:hover {
+    color: red;
+}
