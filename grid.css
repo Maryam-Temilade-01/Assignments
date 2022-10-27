@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: white;
+}
+main {
+  margin: auto;
+  width: 50%;
+  height: 60%;
+  margin-top: 5%;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-areas: 
+  'a a b'
+  'c d d'
+  'c e e';
+  gap: 15px;
+}
+main div {
+  align-items: center;
+  
+}
+.a {
+  background: aqua;
+  grid-area: a;
+  color: aqua;
+  padding: 90px;
+}
+.b {
+  background: rgb(0, 207, 207);
+  grid-area: b;
+  color: rgb(0, 207, 207);
+  padding: 90px;
+}
+.c {
+  background: rgb(0, 145, 145);
+  grid-area: c;
+  color: rgb(0, 145, 145);
+  padding: 90px;
+}
+.d {
+  background: rgb(0, 104, 104);
+  grid-area: d;
+  color: rgb(0, 104, 104);
+  padding: 50px;
+}
+.e {
+  background: rgb(1, 53, 53);
+  grid-area: e;
+  color: rgb(1, 53, 53);
+  padding: 60px;
+}
+a {
+    margin-left: 42%;
+    background: rgb(0, 136, 136);
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    color: white;
+  }

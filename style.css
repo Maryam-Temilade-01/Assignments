@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: hsl(0, 0%, 95%);
+}
+main {
+  width: 50%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 80px;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400px;
+  font-size: 13px;
+}
+.firstbox p {
+  padding-bottom: 50px;
+}
+.secondbox p {
+  padding-bottom: 50px;
+}
+.thirdbox p {
+  padding-bottom: 50px;
+}
+h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family:'Big Shoulders Display';
+  font-weight: 700px;
+  font-size: 30px;
+}
+h2{
+  color: hsl(0, 0%, 95%);
+}
+.firstbox {
+  background: hsl(31, 77%, 52%);
+  padding: 25px;
+}
+.secondbox {
+  background: hsl(184, 100%, 22%);
+  padding: 25px;
+}
+.thirdbox {
+  background: hsl(179, 100%, 13%);
+  padding: 25px;
+}
+#btn {
+  padding: 10px;
+  border-radius: 20px;
+  width: 100px;
+  border: solid 1px hsl(0, 0%, 95%);
+  margin-left: 10px;
+}
+.firstbutton {
+  color: hsl(31, 77%, 52%);
+}
+.secondbutton {
+  color: hsl(184, 100%, 22%);
+}
+.thirdbutton {
+  color: hsl(179, 100%, 13%);
+}
+.firstbutton:active {
+  color: hsl(0, 0%, 95%);
+  background: hsl(31, 77%, 52%);
+}
+.secondbutton:active {
+  color: hsl(0, 0%, 95%);
+  background: hsl(184, 100%, 22%);
+}
+.thirdbutton:active {
+  color: hsl(0, 0%, 95%);
+  background: hsl(179, 100%, 13%);
+}
+a {
+  margin-left: 42%;
+  background: rgb(0, 136, 136);
+  padding: 10px;
+  border-radius: 20px;
+  width: 100px;
+  color: white;
+}
